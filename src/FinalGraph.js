@@ -53,6 +53,8 @@ function LineChart() {
       datasets,
     };
 
+    console.log(data);
+
     return <Line data={data} />;
   };
 

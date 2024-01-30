@@ -7,6 +7,7 @@ import Map from "./Map";
 import Charto from "./delete";
 import LineChartoo from "./nextwebsiteChart";
 import LineChartoss from "./FinalGraph";
+import TestChart from "./TestChart";
 // import BankGraph from "./delete";
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <LineChart></LineChart>
       <LineChartoo></LineChartoo>
       <LineChartoss></LineChartoss>
+      <TestChart />
     </div>
   );
 }
